@@ -1,0 +1,412 @@
+/*!
+ Custom CSS AREA!
+ */
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ATF {
+    margin-top: 63px;
+    padding: 0;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+.firstslide {
+    background: url(images/background01.jpg);
+    height: 90vh;
+}
+
+.secondslide {
+    background: url(images/background01.jpg);
+    height: 90vh;
+}
+
+.thirdslide {
+    background: url(images/background03.jpg);
+    height: 90vh;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #0009;
+    background-color: #ffffff8c;
+    border: 1px solid #ffffff8c;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #fff;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flexbox h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.flexbox h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    width: 75%;
+    margin-bottom: 15px;
+}
+
+.bg-dark {
+    background-color: #212121;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active {
+    color: #fff;
+}
+
+a.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.nav-border {
+    border-right: 1px solid #fff;
+}
+
+#book-now {
+    background: #ff6b6b;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.fixed-top {
+    position: absolute;
+}
+
+
+#Featured-tours {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tours {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #545454;
+}
+
+.featured-post img {
+    width: 100%;
+    max-width: 247px;
+    max-height: 330px;
+   
+}
+
+.tour-head {
+    text-align: center;
+    font-size: 16px;
+    color: #545454;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.tour-desc{
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 300;
+}
+
+.btn{
+    background: #ff6b6b;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase; 
+   }
+
+a.btn{
+      font-size: 12px;
+      padding:8px 20px;
+      color:#fff;
+    } 
+
+#bestTours {
+    background:url(images/bestTours.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 235px 0px;
+}
+
+#bestTours h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: #fff;
+}
+
+#bestTours p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+
+.spacer {
+    height: 30px;
+}       
+
+.btn-white {
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    border-radius: 34px;
+    color: #fff;
+    font-size: 12px;
+} 
+
+.btn-white:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#why-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#whyUs p {
+    text-align: center;
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#whyUs h5{
+    text-align: center;
+    font-size: 20px;
+    color: #545454;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#our-partner {
+    background: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#ourPartner p {
+    text-align: center;
+}
+
+section#reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reviews-img {
+    width: 25%;
+    margin-top: 5px;
+    float: left;
+}
+
+#reviews-clients p {
+    font-size: 14px;
+    color: #434345;
+}
+
+#reviews-clients h4 {
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+.desc-details {
+    width: 75%;
+    padding: 5px;
+    float: right;
+}
+
+.footer {
+    background: #212121;
+    height: 100px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-logo.left {
+    justify-content: right;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer li {
+    float: left;
+    margin: 0 5px 0 5px;
+    background-color: #2e2e2e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 19px;
+}
+
+.footer img {
+    padding: 15px 0;
+}
+
+.modal-header h5 {
+    color: #fff;
+}
+
+.modal-header {
+    background-color: #212121;
+}
+
+.modal-body {
+    padding: 51px;
+}
+
+.modal-header .close {
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin: -30px;
+}
+button.close {
+    background: #ff6b6b;
+}
+
+.modal-content {
+    top: 33px;
+}
+
+.close{
+    color:#fff;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #f2f2f2;
+}
+
+#modalbtn {
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.input-container i {
+    line-height: 26px;
+    color: #ff6b6b;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+button.close {
+    opacity: 2;
+}
+
+button.close:hover {
+    opacity: 7;
+    color: #fff;
+}
+
+textarea.form-control {
+    height: auto;
+    border-radius: 0px;
+    border: 0;
+}
+.icon {
+    padding: 10px;
+    background: #f2f2f2;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
